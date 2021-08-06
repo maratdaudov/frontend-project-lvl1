@@ -1,5 +1,6 @@
 #!/usr/bin/env node
+import checkParity from '../src/check-parity.js';
 import { askName } from '../src/cli.js';
 
-console.log('Welcome to the Brain Games!');
 askName();
+checkParity();
