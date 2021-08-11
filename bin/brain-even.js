@@ -1,6 +1,5 @@
 #!/usr/bin/env node
-import checkParity from '../src/check-parity.js';
-import { askName } from '../src/cli.js';
+import even from '../games/even.js';
+import runGame from '../src/index.js';
 
-askName();
-checkParity();
+runGame(even);
