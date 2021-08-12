@@ -1,6 +1,8 @@
 import readlineSync from 'readline-sync';
 
-export const getRandomNumber = () => Math.floor(Math.random() * 100) + 1;
+export const getRandomNumber = (min = 0, max = 100) => (
+  Math.floor(Math.random() * (max - min + 1)) + min
+);
 
 const roundsCount = 3;
 
@@ -12,6 +14,8 @@ const compareResults = (getQuestionAndAnswerCorrect) => {
 
   for (let i = 0; i < roundsCount; i += 1) {
     const [question, answerCorrect] = getQuestionAndAnswerCorrect();
+
+    console.log(typeof answerCorrect);
 
     console.log(`Question: ${question}`);
     const answerUser = readlineSync.question('Your answer: ');
