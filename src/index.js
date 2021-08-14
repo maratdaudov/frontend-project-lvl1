@@ -15,12 +15,10 @@ const compareResults = (getQuestionAndAnswerCorrect) => {
   for (let i = 0; i < roundsCount; i += 1) {
     const [question, answerCorrect] = getQuestionAndAnswerCorrect();
 
-    console.log(typeof answerCorrect);
-
     console.log(`Question: ${question}`);
     const answerUser = readlineSync.question('Your answer: ');
 
-    if (answerUser === answerCorrect) {
+    if (answerUser === answerCorrect.toString()) {
       console.log('Correct!');
     } else {
       console.log(`${answerUser} is wrong answer ;(. Correct answer was ${answerCorrect}.`);

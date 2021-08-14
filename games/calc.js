@@ -33,7 +33,7 @@ const calc = () => {
   }
 
   const question = `${number1} ${randomOperator} ${number2}`;
-  const answerCorrect = answerCorrectCompute.toString();
+  const answerCorrect = answerCorrectCompute;
 
   return [question, answerCorrect];
 };
