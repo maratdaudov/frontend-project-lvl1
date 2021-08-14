@@ -12,3 +12,4 @@
 | ------ | ------ |
 | brain-even | [https://asciinema.org/a/LxA973Y23rx2qqZ2WtNCwggRl](https://asciinema.org/a/LxA973Y23rx2qqZ2WtNCwggRl "https://asciinema.org/a/LxA973Y23rx2qqZ2WtNCwggRl") |
 | brain-calc | [https://asciinema.org/a/sGP3uzTxy86ZGbxB60RJx9Gnq](https://asciinema.org/a/sGP3uzTxy86ZGbxB60RJx9Gnq "https://asciinema.org/a/sGP3uzTxy86ZGbxB60RJx9Gnq") |
+| brain-gcd | [https://asciinema.org/a/7WUzZNPsfmjdERqG36GYGAxRt](https://asciinema.org/a/7WUzZNPsfmjdERqG36GYGAxRt "https://asciinema.org/a/7WUzZNPsfmjdERqG36GYGAxRt") |
