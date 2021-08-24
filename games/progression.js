@@ -12,7 +12,7 @@ const getQuestionAndAnswerCorrect = () => {
   let answerCorrect = null;
   const arr = [randomNumber];
 
-  for (let i = 0; i < progressionLength; i += 1) {
+  for (let i = 0; i <= progressionLength; i += 1) {
     arr[i + 1] = arr[i] + step;
 
     if (i === hiddenPosition) {
