@@ -6,11 +6,17 @@ export const getRandomNumber = (min = 0, max = 100) => (
 
 const roundsCount = 3;
 
-const compareResults = (getQuestionAndAnswerCorrect, description) => {
+const sayHello = () => {
   console.log('Welcome to Brain Games!');
 
   const userName = readlineSync.question('May I have your name? ');
   console.log(`Hello, ${userName}!`);
+
+  return userName;
+};
+
+const compareResults = (getQuestionAndAnswerCorrect, description) => {
+  const userName = sayHello();
 
   const conditions = description;
   console.log(conditions);
@@ -34,4 +40,4 @@ const compareResults = (getQuestionAndAnswerCorrect, description) => {
   console.log(`Congratulations, ${userName}!`);
 };
 
-export default compareResults;
+export { compareResults, sayHello };
