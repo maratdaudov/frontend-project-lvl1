@@ -6,7 +6,7 @@ export const getRandomNumber = (min = 0, max = 100) => (
 
 const roundsCount = 3;
 
-const sayHello = () => {
+export const sayHello = () => {
   console.log('Welcome to Brain Games!');
 
   const userName = readlineSync.question('May I have your name? ');
@@ -40,4 +40,4 @@ const compareResults = (getQuestionAndAnswerCorrect, description) => {
   console.log(`Congratulations, ${userName}!`);
 };
 
-export { compareResults, sayHello };
+export default compareResults;
