@@ -1,8 +1,8 @@
 import { getRandomNumber } from '../src/index.js';
 
-const calc = () => {
-  console.log('What is the result of the expression?');
+const description = console.log('What is the result of the expression?');
 
+const getQuestionAndAnswerCorrect = () => {
   const number1 = getRandomNumber();
   const number2 = getRandomNumber();
 
@@ -38,4 +38,4 @@ const calc = () => {
   return [question, answerCorrect];
 };
 
-export default calc;
+export { getQuestionAndAnswerCorrect, description };

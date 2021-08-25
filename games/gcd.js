@@ -1,8 +1,8 @@
 import { getRandomNumber } from '../src/index.js';
 
-const getQuestionAndAnswerCorrect = () => {
-  console.log('Find the greatest common divisor of given numbers.');
+const description = 'Find the greatest common divisor of given numbers.';
 
+const getQuestionAndAnswerCorrect = () => {
   const number1 = getRandomNumber();
   const number2 = getRandomNumber();
   const question = `${number1} ${number2}`;
@@ -22,4 +22,4 @@ const getQuestionAndAnswerCorrect = () => {
   return [question, answerCorrect];
 };
 
-export default getQuestionAndAnswerCorrect;
+export { getQuestionAndAnswerCorrect, description };

@@ -6,11 +6,14 @@ export const getRandomNumber = (min = 0, max = 100) => (
 
 const roundsCount = 3;
 
-const compareResults = (getQuestionAndAnswerCorrect) => {
+const compareResults = (getQuestionAndAnswerCorrect, description) => {
   console.log('Welcome to Brain Games!');
 
   const userName = readlineSync.question('May I have your name? ');
   console.log(`Hello, ${userName}!`);
+
+  const conditions = description;
+  console.log(conditions);
 
   for (let i = 0; i < roundsCount; i += 1) {
     const [question, answerCorrect] = getQuestionAndAnswerCorrect();

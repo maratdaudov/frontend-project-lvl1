@@ -28,8 +28,8 @@
 
 
 ## Asciinema recorded games
-[![asciicast](https://asciinema.org/a/LxA973Y23rx2qqZ2WtNCwggRl.svg)](https://asciinema.org/a/LxA973Y23rx2qqZ2WtNCwggRl) -brain-even
-[![asciicast](https://asciinema.org/a/sGP3uzTxy86ZGbxB60RJx9Gnq.svg)](https://asciinema.org/a/sGP3uzTxy86ZGbxB60RJx9Gnq) -brain-calc
-[![asciicast](https://asciinema.org/a/7WUzZNPsfmjdERqG36GYGAxRt.svg)](https://asciinema.org/a/7WUzZNPsfmjdERqG36GYGAxRt) -brain-gcd
-[![asciicast](https://asciinema.org/a/zkl17i16e3h5LbHqGx9h46a8E.svg)](https://asciinema.org/a/zkl17i16e3h5LbHqGx9h46a8E) -brain-progression
-[![asciicast](https://asciinema.org/a/A8L0BSCXBkVSajto4H8XokI7a.svg)](https://asciinema.org/a/A8L0BSCXBkVSajto4H8XokI7a) -brain-prime
+[![asciicast](https://asciinema.org/a/EVGDvfdxZTFv3g1oNT6IV5X84.svg)](https://asciinema.org/a/EVGDvfdxZTFv3g1oNT6IV5X84) -brain-even
+[![asciicast](https://asciinema.org/a/WqKsmxK0U44SfByt83hdVuxD0.svg)](https://asciinema.org/a/WqKsmxK0U44SfByt83hdVuxD0) -brain-calc
+[![asciicast](https://asciinema.org/a/GSyp8Z8Hx2eozFAzhhoaewcn5.svg)](https://asciinema.org/a/GSyp8Z8Hx2eozFAzhhoaewcn5) -brain-gcd
+[![asciicast](https://asciinema.org/a/lyhxfUTC8KzLXhT4cUlqAbp1u.svg)](https://asciinema.org/a/lyhxfUTC8KzLXhT4cUlqAbp1u) -brain-progression
+[![asciicast](https://asciinema.org/a/M0LGZo9dxgGFkIK3HuM0TXDIF.svg)](https://asciinema.org/a/M0LGZo9dxgGFkIK3HuM0TXDIF) -brain-prime

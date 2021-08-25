@@ -1,6 +1,6 @@
 import { getRandomNumber } from '../src/index.js';
 
-console.log('Answer "yes" if given number is prime. Otherwise answer "no"');
+const description = 'Answer "yes" if given number is prime. Otherwise answer "no"';
 
 const getQuestionAndAnswerCorrect = () => {
   const randomNumber = getRandomNumber(0, 100);
@@ -17,4 +17,4 @@ const getQuestionAndAnswerCorrect = () => {
   return [question, answerCorrect];
 };
 
-export default getQuestionAndAnswerCorrect;
+export { getQuestionAndAnswerCorrect, description };

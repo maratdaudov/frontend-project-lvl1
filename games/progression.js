@@ -1,8 +1,8 @@
 import { getRandomNumber } from '../src/index.js';
 
-const getQuestionAndAnswerCorrect = () => {
-  console.log('What number is missing in the progression?');
+const description = 'What number is missing in the progression?';
 
+const getQuestionAndAnswerCorrect = () => {
   const randomNumber = getRandomNumber(0, 100);
   const progressionLength = getRandomNumber(5, 10);
   const step = getRandomNumber(1, 5);
@@ -26,4 +26,4 @@ const getQuestionAndAnswerCorrect = () => {
   return [question, answerCorrect];
 };
 
-export default getQuestionAndAnswerCorrect;
+export { getQuestionAndAnswerCorrect, description };
