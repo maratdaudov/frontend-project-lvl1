@@ -32,3 +32,4 @@
 [![asciicast](https://asciinema.org/a/sGP3uzTxy86ZGbxB60RJx9Gnq.svg)](https://asciinema.org/a/sGP3uzTxy86ZGbxB60RJx9Gnq) -brain-calc
 [![asciicast](https://asciinema.org/a/7WUzZNPsfmjdERqG36GYGAxRt.svg)](https://asciinema.org/a/7WUzZNPsfmjdERqG36GYGAxRt) -brain-gcd
 [![asciicast](https://asciinema.org/a/zkl17i16e3h5LbHqGx9h46a8E.svg)](https://asciinema.org/a/zkl17i16e3h5LbHqGx9h46a8E) -brain-progression
+[![asciicast](https://asciinema.org/a/A8L0BSCXBkVSajto4H8XokI7a.svg)](https://asciinema.org/a/A8L0BSCXBkVSajto4H8XokI7a) -brain-prime
