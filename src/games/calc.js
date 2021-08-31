@@ -1,6 +1,6 @@
-import { getRandomNumber } from '../src/index.js';
+import { getRandomNumber } from '../index.js';
 
-const description = console.log('What is the result of the expression?');
+const description = 'What is the result of the expression?';
 
 const getQuestionAndAnswerCorrect = () => {
   const number1 = getRandomNumber();

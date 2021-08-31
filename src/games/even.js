@@ -1,4 +1,4 @@
-import { getRandomNumber } from '../src/index.js';
+import { getRandomNumber } from '../index.js';
 
 const description = 'Answer yes if the number is even, otherwise answer no.';
 

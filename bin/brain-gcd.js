@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-import { getQuestionAndAnswerCorrect, description } from '../games/gcd.js';
+import { getQuestionAndAnswerCorrect, description } from '../src/games/gcd.js';
 import runGame from '../src/index.js';
 
 runGame(getQuestionAndAnswerCorrect, description);

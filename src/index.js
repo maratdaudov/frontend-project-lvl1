@@ -1,25 +1,14 @@
 import readlineSync from 'readline-sync';
+import getUserName from './cli.js';
 
 export const getRandomNumber = (min = 0, max = 100) => (
   Math.floor(Math.random() * (max - min + 1)) + min
 );
 
 const roundsCount = 3;
-
-export const sayHello = () => {
-  console.log('Welcome to Brain Games!');
-
-  const userName = readlineSync.question('May I have your name? ');
-  console.log(`Hello, ${userName}!`);
-
-  return userName;
-};
-
 const compareResults = (getQuestionAndAnswerCorrect, description) => {
-  const userName = sayHello();
-
-  const conditions = description;
-  console.log(conditions);
+  const userName = getUserName();
+  console.log(description);
 
   for (let i = 0; i < roundsCount; i += 1) {
     const [question, answerCorrect] = getQuestionAndAnswerCorrect();
