@@ -2,11 +2,11 @@ import { getRandomNumber } from '../index.js';
 
 const description = 'Answer yes if the number is even, otherwise answer no.';
 
-const getQuestionAndAnswerCorrect = () => {
+const getGameData = () => {
   const question = getRandomNumber();
-  const answerCorrect = question % 2 === 0 ? 'yes' : 'no';
+  const correctAnswer = question % 2 === 0 ? 'yes' : 'no';
 
-  return [question, answerCorrect, description];
+  return [question, correctAnswer, description];
 };
 
-export { getQuestionAndAnswerCorrect, description };
+export { getGameData, description };

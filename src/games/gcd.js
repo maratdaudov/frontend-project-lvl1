@@ -10,14 +10,14 @@ const gcd = (a, b) => {
   return gcd(b, a % b);
 };
 
-const getQuestionAndAnswerCorrect = () => {
+const getGameData = () => {
   const number1 = getRandomNumber();
   const number2 = getRandomNumber();
   const question = `${number1} ${number2}`;
 
-  const answerCorrect = gcd(number1, number2);
+  const correctAnswer = gcd(number1, number2);
 
-  return [question, answerCorrect];
+  return [question, correctAnswer];
 };
 
-export { getQuestionAndAnswerCorrect, description };
+export { getGameData, description };
