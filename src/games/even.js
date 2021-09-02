@@ -2,11 +2,15 @@ import getRandomNumber from '../utils.js';
 
 const description = 'Answer yes if the number is even, otherwise answer no.';
 
-const getGameData = () => {
-  const question = getRandomNumber();
-  const correctAnswer = question % 2 === 0 ? 'yes' : 'no';
+const isEven = (number) => number % 2 === 0;
 
-  return [question, correctAnswer, description];
+const getGameData = () => {
+  const randomNumber = getRandomNumber(0, 50);
+
+  const question = randomNumber;
+  const correctAnswer = isEven(randomNumber) ? 'yes' : 'no';
+
+  return [question, correctAnswer];
 };
 
 export { getGameData, description };
