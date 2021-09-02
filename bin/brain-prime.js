@@ -1,5 +1,4 @@
 #!/usr/bin/env node
-import { getGameData, description } from '../src/games/prime.js';
-import runGame from '../src/index.js';
+import startGamePrime from '../src/games/prime.js';
 
-runGame(getGameData, description);
+startGamePrime();

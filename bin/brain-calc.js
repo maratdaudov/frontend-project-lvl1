@@ -1,5 +1,4 @@
 #!/usr/bin/env node
-import { getGameData, description } from '../src/games/calc.js';
-import runGame from '../src/index.js';
+import startGameCalc from '../src/games/calc.js';
 
-runGame(getGameData, description);
+startGameCalc();
