@@ -1,10 +1,6 @@
 import readlineSync from 'readline-sync';
 import getUserName from './cli.js';
 
-export const getRandomNumber = (min = 0, max = 100) => (
-  Math.floor(Math.random() * (max - min + 1)) + min
-);
-
 const roundsCount = 3;
 const compareResults = (getGameData, description) => {
   const userName = getUserName();

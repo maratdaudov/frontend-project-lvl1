@@ -1,39 +1,38 @@
-import { getRandomNumber } from '../index.js';
+import getRandomNumber from '../utils.js';
 
 const description = 'What is the result of the expression?';
+
+const calculate = (a, b, operation) => {
+  let result = null;
+
+  switch (operation) {
+    case '+':
+      result = a + b;
+      break;
+    case '-':
+      result = a - b;
+      break;
+    case '*':
+      result = a * b;
+      break;
+    default:
+      console.log('Something went wrong');
+      break;
+  }
+
+  return result;
+};
 
 const getGameData = () => {
   const number1 = getRandomNumber();
   const number2 = getRandomNumber();
 
   const operators = ['+', '-', '*'];
-  const lengthOperators = operators.length - 1;
+  const getRandomIndex = getRandomNumber(0, operators.length - 1);
+  const operator = operators[getRandomIndex];
 
-  let correctAnswerCompute = 0;
-  let randomOperator = null;
-
-  for (let i = 0; i <= lengthOperators; i += 1) {
-    randomOperator = operators[getRandomNumber(0, lengthOperators)];
-  }
-
-  switch (randomOperator) {
-    case '+':
-      correctAnswerCompute = number1 + number2;
-      break;
-
-    case '-':
-      correctAnswerCompute = number1 - number2;
-      break;
-
-    case '*':
-      correctAnswerCompute = number1 * number2;
-      break;
-
-    default:
-  }
-
-  const question = `${number1} ${randomOperator} ${number2}`;
-  const correctAnswer = correctAnswerCompute;
+  const question = `${number1} ${operator} ${number2}`;
+  const correctAnswer = calculate(number1, number2, operator);
 
   return [question, correctAnswer];
 };
