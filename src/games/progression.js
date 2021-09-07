@@ -5,10 +5,7 @@ const description = 'What number is missing in the progression?';
 
 const lengthProgression = getRandomNumber(5, 10);
 
-const makeProgression = () => {
-  const startNumber = getRandomNumber(0, 100);
-  const step = getRandomNumber(1, 5);
-
+const makeProgression = (startNumber, step) => {
   const progression = [];
 
   for (let i = 0; i <= lengthProgression; i += 1) {
@@ -19,7 +16,9 @@ const makeProgression = () => {
 };
 
 const getGameData = () => {
-  const progression = makeProgression();
+  const startNumber = getRandomNumber(0, 100);
+  const step = getRandomNumber(1, 5);
+  const progression = makeProgression(startNumber, step);
   const hiddenNumber = getRandomNumber(0, lengthProgression);
   const correctAnswer = progression[hiddenNumber];
   progression[hiddenNumber] = '..';
