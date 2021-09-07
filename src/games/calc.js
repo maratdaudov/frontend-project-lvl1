@@ -3,21 +3,20 @@ import runGame from '../index.js';
 
 const description = 'What is the result of the expression?';
 
-const calculate = (a, b, operation) => {
+const calculate = (number1, number2, operation) => {
   let result = null;
 
   switch (operation) {
     case '+':
-      result = a + b;
+      result = number1 + number2;
       break;
     case '-':
-      result = a - b;
+      result = number1 - number2;
       break;
     case '*':
-      result = a * b;
+      result = number1 * number2;
       break;
     default:
-      console.log('Something went wrong');
       break;
   }
 
