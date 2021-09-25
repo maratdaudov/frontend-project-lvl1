@@ -24,7 +24,7 @@
 ### Hexlet tests and linter status:
 [![Actions Status](https://github.com/maratdaudov/frontend-project-lvl1/workflows/hexlet-check/badge.svg)](https://github.com/maratdaudov/frontend-project-lvl1/actions)
 
-[![Maintainability](https://api.codeclimate.com/v1/badges/a99a88d28ad37a79dbf6/maintainability)](https://codeclimate.com/github/codeclimate/codeclimate/maintainability)
+[![Maintainability](https://api.codeclimate.com/v1/badges/32a1fa6d125dad96aaa1/maintainability)](https://codeclimate.com/github/maratdaudov/frontend-project-lvl1/maintainability)
 
 [![Node CI](https://github.com/maratdaudov/frontend-project-lvl1/workflows/Node.js%20CI/badge.svg)](https://github.com/maratdaudov/frontend-project-lvl1/actions)
 
